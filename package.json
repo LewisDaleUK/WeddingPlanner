@@ -3,5 +3,11 @@
   "private": true,
   "devDependencies": {
     "lerna": "^3.6.0"
-  }
+  },
+  "scripts": {
+    "start": "lerna run --stream --scope configuration start"
+  },
+  "workspaces": [
+    "packages/*"
+  ]
 }

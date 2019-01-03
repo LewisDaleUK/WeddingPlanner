@@ -1,0 +1,32 @@
+{
+  "name": "components",
+  "version": "0.0.1",
+  "description": "Package containing React components",
+  "keywords": [
+    "react"
+  ],
+  "author": "Lewis Dale <lewis.dale@fortacode.co.uk>",
+  "homepage": "https://github.com/LewisDaleUK/WeddingPlanner#readme",
+  "license": "MIT",
+  "main": "index.ts",
+  "directories": {
+    "lib": "src",
+    "test": "__tests__"
+  },
+  "files": [
+    "src"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LewisDaleUK/WeddingPlanner.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "bugs": {
+    "url": "https://github.com/LewisDaleUK/WeddingPlanner/issues"
+  },
+  "dependencies": {
+    "react": "^16.7.0"
+  }
+}
