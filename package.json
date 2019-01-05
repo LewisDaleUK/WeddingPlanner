@@ -5,9 +5,13 @@
     "lerna": "^3.6.0"
   },
   "scripts": {
-    "start": "lerna run --stream --scope core start"
+    "start": "lerna run --stream --scope core start",
+    "test": "jest"
   },
   "workspaces": [
     "packages/*"
-  ]
+  ],
+  "babel": {
+    "presets": ["react-app"]
+  }
 }
